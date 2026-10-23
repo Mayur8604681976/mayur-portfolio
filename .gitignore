@@ -1,0 +1,40 @@
+# ============================================================
+# .gitignore - Mayur Pandey Portfolio
+# ============================================================
+
+# Environment / secrets
+.env
+
+# Python virtual environments
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Flask / Werkzeug
+instance/
+.webassets-cache
+
+# Logs
+*.log
+logs/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploaded files
+uploads/
